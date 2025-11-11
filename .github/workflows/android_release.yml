@@ -41,9 +41,7 @@ jobs:
   release-build:
     name: android-release-build
     runs-on:
-      - self-hosted
-      - mobile
-      - Linux
+      - ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Get Actions Variables
